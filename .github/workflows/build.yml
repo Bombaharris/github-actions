@@ -1,0 +1,9 @@
+name: Call a reusable build
+
+on: workflow_dispatch
+
+jobs:
+  my-job:
+    uses: Bombaharris/github-actions-reusable/.github/workflows/build.yml@master
+    with:
+      node-version: '18.x'
