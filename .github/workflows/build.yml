@@ -5,5 +5,8 @@ on: workflow_dispatch
 jobs:
   my-job:
     uses: Bombaharris/github-actions-reusable/.github/workflows/build.yml@master
+    permissions:
+      contents: read
+      packages: write
     with:
       node-version: '18.x'
