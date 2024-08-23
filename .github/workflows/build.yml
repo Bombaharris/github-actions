@@ -9,4 +9,6 @@ jobs:
       contents: read
       packages: write
     with:
-      node-version: '18.x'
+      NODE_VERSION: '18.x'
+      APP_NAME: 'github-actions'
+    secrets: inherit
