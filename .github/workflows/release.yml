@@ -11,8 +11,9 @@ jobs:
   build:
     uses: Bombaharris/github-actions-reusable/.github/workflows/release.yml@master
     permissions:
-      contents: read
+      contents: write
       packages: write
+      pull-requests: write
     with:
         VERSION: ${{ github.event.inputs.version }}
     secrets: inherit
