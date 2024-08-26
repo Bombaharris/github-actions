@@ -1,0 +1,24 @@
+name: Call a reusable Deploy
+on:
+  release:
+    types: [created]
+  push:
+      branches:
+        - develop
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    strategy:
+      matrix:
+        env: [DEV, DEVAS]
+    uses: Bombaharris/github-actions-reusable/.github/workflows/deploy.yml@master
+    permissions:
+      contents: read
+      packages: write
+    with:
+      ENV: ${{ matrix.env }}
+      NODE_VERSION: ${{ vars.NODE_VERSION }}
+      APP_NAME: ${{ vars.APP_NAME }}
+      GH_REF: ${{ github.event.release.tag_name || github.sha }}
+    secrets: inherit
