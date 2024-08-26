@@ -9,6 +9,6 @@ jobs:
       contents: read
       packages: write
     with:
-      NODE_VERSION: '18.x'
-      APP_NAME: 'github-actions'
+      NODE_VERSION: ${{ vars.NODE_VERSION }}
+      APP_NAME: ${{ vars.APP_NAME }}
     secrets: inherit
