@@ -8,7 +8,4 @@ jobs:
     permissions:
       contents: read
       packages: write
-    with:
-      NODE_VERSION: ${{ vars.NODE_VERSION }}
-      APP_NAME: ${{ vars.APP_NAME }}
     secrets: inherit
