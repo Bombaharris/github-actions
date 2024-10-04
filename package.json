@@ -16,6 +16,10 @@
   "devDependencies": {
     "conventional-changelog-cli": "^5.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bombaharris/github-actions"
+  },
   "publishConfig": {
     "@Bombaharris:registry": "https://npm.pkg.github.com"
   }
