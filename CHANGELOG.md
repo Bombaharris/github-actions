@@ -1,3 +1,10 @@
+## <small>2.0.7 (2024-10-04)</small>
+
+* chore: release version v2.0.7 ([569bdb2](https://github.com/Bombaharris/github-actions/commit/569bdb2))
+* ci: npmrc ([ddc9760](https://github.com/Bombaharris/github-actions/commit/ddc9760))
+
+
+
 ## <small>2.0.6 (2024-10-04)</small>
 
 * chore: release version v2.0.6 ([6038fd4](https://github.com/Bombaharris/github-actions/commit/6038fd4))
