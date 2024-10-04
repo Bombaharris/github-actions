@@ -1,3 +1,10 @@
+## <small>2.0.9 (2024-10-04)</small>
+
+* chore: release version v2.0.9 ([4663124](https://github.com/Bombaharris/github-actions/commit/4663124))
+* ci: scope fixes ([0968d51](https://github.com/Bombaharris/github-actions/commit/0968d51))
+
+
+
 ## <small>2.0.8 (2024-10-04)</small>
 
 * chore: release version v2.0.8 ([2216cc5](https://github.com/Bombaharris/github-actions/commit/2216cc5))
