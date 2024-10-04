@@ -1,0 +1,41 @@
+name: Package
+on:
+  release:
+    types: [created]  
+
+env:
+  GH_REF: ${{ github.event.release.tag_name }}
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.GH_REF }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ vars.NODE_VERSION }}
+          registry-url: https://npm.pkg.github.com/
+          scope: '@cytiva'
+
+      - name: npm ci, build, assetize
+        run: |
+          npm ci
+          npm run build
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.AUTH_TOKEN_CYTIVA }}
+
+      - name: Publish package to GPR
+        continue-on-error: true
+        run: |
+          npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.AUTH_TOKEN_CYTIVA }}
