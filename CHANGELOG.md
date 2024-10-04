@@ -1,3 +1,10 @@
+## <small>2.0.11 (2024-10-04)</small>
+
+* chore: release version v2.0.11 ([cc0c28f](https://github.com/Bombaharris/github-actions/commit/cc0c28f))
+* ci: git repo ([cb36e23](https://github.com/Bombaharris/github-actions/commit/cb36e23))
+
+
+
 ## <small>2.0.10 (2024-10-04)</small>
 
 * chore: release version v2.0.10 ([78f538b](https://github.com/Bombaharris/github-actions/commit/78f538b))
