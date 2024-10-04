@@ -1,3 +1,10 @@
+## <small>2.0.10 (2024-10-04)</small>
+
+* chore: release version v2.0.10 ([78f538b](https://github.com/Bombaharris/github-actions/commit/78f538b))
+* ci: fix token ([48b8202](https://github.com/Bombaharris/github-actions/commit/48b8202))
+
+
+
 ## <small>2.0.9 (2024-10-04)</small>
 
 * chore: release version v2.0.9 ([4663124](https://github.com/Bombaharris/github-actions/commit/4663124))
