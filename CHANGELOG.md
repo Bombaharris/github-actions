@@ -1,3 +1,10 @@
+## <small>2.0.5 (2024-10-04)</small>
+
+* chore: release version v2.0.5 ([4a9fa73](https://github.com/Bombaharris/github-actions/commit/4a9fa73))
+* ci package fix ([bc1bca4](https://github.com/Bombaharris/github-actions/commit/bc1bca4))
+
+
+
 ## <small>2.0.4 (2024-10-04)</small>
 
 * chore: release version v2.0.4 ([4d089e5](https://github.com/Bombaharris/github-actions/commit/4d089e5))
