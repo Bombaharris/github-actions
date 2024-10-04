@@ -1,3 +1,9 @@
+## <small>2.0.6 (2024-10-04)</small>
+
+* chore: release version v2.0.6 ([6038fd4](https://github.com/Bombaharris/github-actions/commit/6038fd4))
+
+
+
 ## <small>2.0.5 (2024-10-04)</small>
 
 * chore: release version v2.0.5 ([4a9fa73](https://github.com/Bombaharris/github-actions/commit/4a9fa73))
