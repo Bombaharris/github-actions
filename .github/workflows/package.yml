@@ -24,7 +24,7 @@ jobs:
         with:
           node-version: ${{ vars.NODE_VERSION }}
           registry-url: https://npm.pkg.github.com/
-          scope: '@cytiva'
+          scope: '@bombaharris'
 
       - name: npm ci, build, assetize
         run: |
@@ -33,7 +33,6 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.AUTH_TOKEN_CYTIVA }}
 
       - name: Publish package to GPR
-        continue-on-error: true
         run: |
           npm publish
         env:

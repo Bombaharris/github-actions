@@ -1,6 +1,6 @@
 {
   "name": "@bombaharris/github-actions",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   },
   "devDependencies": {
     "conventional-changelog-cli": "^5.0.0"
+  },
+  "publishConfig": {
+    "@Bombaharris:registry": "https://npm.pkg.github.com"
   }
 }
