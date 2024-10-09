@@ -1,3 +1,10 @@
+## <small>2.0.12 (2024-10-09)</small>
+
+* chore: release version v2.0.12 ([886de25](https://github.com/Bombaharris/github-actions/commit/886de25))
+* feat: package ([65643a0](https://github.com/Bombaharris/github-actions/commit/65643a0))
+
+
+
 ## <small>2.0.11 (2024-10-04)</small>
 
 * chore: release version v2.0.11 ([cc0c28f](https://github.com/Bombaharris/github-actions/commit/cc0c28f))
